@@ -25,6 +25,8 @@ end
 
 group :production do
   gem 'pg', '0.20.0'
+  gem "better_errors"
+  gem "binding_of_caller"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
